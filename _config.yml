@@ -40,3 +40,25 @@ exclude:
 pagination:
   enabled: true
 article_assets: '/assets/articles/'
+defaults:
+  - scope:
+      path: _articles
+    values:
+      layout: page
+      comments: true
+      breadcrumb: true
+      image:
+        title: placeholder.png
+        caption: Placeholder image
+        caption_url: https://example.com
+        thumb: placeholder.png
+        homepage: placeholder.png
+      header:
+        image_fullwidth: placeholder.png
+  - scope:
+      path: pages
+    values:
+      breadcrumb: true
+      sidebar: right
+      header:
+        image_fullwidth: placeholder.png

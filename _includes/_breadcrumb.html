@@ -1,0 +1,14 @@
+{% comment %}
+*
+*  http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-breadcrumbs-on-a-jekyll-site
+*
+{% endcomment %}
+
+<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+ <a href="{{ site.url }}{{ site.baseurl }}">{{ site.data.language.breadcrumb_start }}</a>
+ {% if page.collection %}
+   {% assign collection = site.collections | where: "label", page.collection | first %}
+   <a href="{{ site.url }}{{ site.baseurl }}/blog/{{ collection.label }}/">{{ collection.title | p_liq }}</a>
+ {% endif %}
+ <a class="current">{{ page.title | p_liq }}</a>
+</nav>

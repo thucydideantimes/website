@@ -20,7 +20,6 @@ module Jekyll
 		def add_all site
 			COLLECTIONS.each do |collection|
 				site.collections[collection].docs.each do |doc|
-					doc.data['assets'] = File.join site.config['article_assets'], collection, doc.basename_without_ext, ''
 					doc = doc.dup
 					doc.instance_variable_set :@write_p, false
 					site.posts.docs.push doc
