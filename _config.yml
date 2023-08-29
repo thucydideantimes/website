@@ -9,7 +9,7 @@ domain: thucydideantimes.org
 theme: jekyll-theme-feeling-responsive
 urlimg: '/assets/img/'
 logo: logo.png
-disqus_shortname: thucydideantimes
+disqus_shortname: thucydidean-times
 collections:
   dailynews:
     title: 每日新闻精选
