@@ -31,14 +31,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup deploy keys
-        uses: webfactory/ssh-agent@v0.8.0
-        with:
-          ssh-private-key: ${{ secrets.JEKYLL_DEPLOYMENT_KEY }}
       - name: Checkout
         uses: actions/checkout@v3
         with:
           submodules: recursive
+          ssh-key: ${{ secrets.JEKYLL_DEPLOYMENT_KEY }}
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
