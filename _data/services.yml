@@ -1,0 +1,17 @@
+- menu_name: "服务"
+
+- name: "联系"
+  url: "/contact/"
+  title: "联系方式"
+
+- name: "RSS"
+  url: "/feed.xml"
+  title: "订阅 RSS Feed"
+
+- name: "Atom"
+  url: "/atom.xml"
+  title: "订阅 Atom Feed"
+
+- name: "sitemap.xml"
+  url: "/sitemap.xml"
+  title: "Sitemap for Google Webmaster Tools"

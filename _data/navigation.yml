@@ -1,0 +1,27 @@
+- title: Thucydidean Times
+  url: /
+  side: left
+
+- title: 每日新闻精选
+  url: /blog/dailynews/
+  side: left
+
+- title: 资本之声
+  url: /blog/echoesofcapital/
+  side: left
+
+- title: 永乐大典
+  url: /blog/yongledadian/
+  side: left
+
+- title: 军事时报
+  url: /blog/militarytimes/
+  side: left
+
+- title: 搜索
+  url: /search/
+  side: right
+
+- title: 联系
+  url: /contact/
+  side: right

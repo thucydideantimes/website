@@ -1,0 +1,6 @@
+- menu_name: "第二栏"
+
+- name: "名称1"
+  url: "https://example.com/"
+  class: "network-entypo"
+  title: "hover hint 1"

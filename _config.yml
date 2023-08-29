@@ -1,0 +1,42 @@
+---
+title: Thucydidean Times
+language: zh-CN
+slogan: 'TODO: slogan blahblah'
+description: 'TODO: description blahblah'
+credits: 'Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a>'
+url: https://thucydideantimes.org
+domain: thucydideantimes.org
+theme: jekyll-theme-feeling-responsive
+urlimg: '/assets/img/'
+logo: logo.png
+disqus_shortname: thucydideantimes
+collections:
+  dailynews:
+    title: 每日新闻精选
+    description: 测试描述 blahblah
+    output: true
+    permalink: /blog/:collection/:year/:month/:day/:title/
+  echoesofcapital:
+    title: 资本之声
+    description: 测试描述 blahblah
+    output: true
+    permalink: /blog/:collection/:year/:month/:day/:title/
+  yongledadian:
+    title: 永乐大典
+    description: 测试描述 blahblah
+    output: true
+    permalink: /blog/:collection/:year/:month/:day/:title/
+  militarytimes:
+    title: 军事时报
+    description: 测试描述 blahblah
+    output: true
+    permalink: /blog/:collection/:year/:month/:day/:title/
+exclude:
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - '.git/'
+  - tmp/
+pagination:
+  enabled: true
+article_assets: '/assets/articles/'
