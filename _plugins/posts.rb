@@ -20,6 +20,9 @@ module Jekyll
 		def add_all site
 			COLLECTIONS.each do |collection|
 				site.collections[collection].docs.each do |doc|
+					doc.data.transform_values! do |value|
+						value == '__force_nil__' ? nil : value
+					end
 					doc = doc.dup
 					doc.instance_variable_set :@write_p, false
 					site.posts.docs.push doc
