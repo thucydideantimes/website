@@ -1,24 +1,24 @@
 [submodule "_articles/dailynews"]
 	path = _articles/dailynews
-	url = git@github.com:thucydideantimes/dailynews.git
+	url = https://github.com/thucydideantimes/dailynews.git
 [submodule "_articles/militarytimes"]
 	path = _articles/militarytimes
-	url = git@github.com:thucydideantimes/militarytimes.git
+	url = https://github.com/thucydideantimes/militarytimes.git
 [submodule "_articles/echoesofcapital"]
 	path = _articles/echoesofcapital
-	url = git@github.com:thucydideantimes/echoesofcapital.git
+	url = https://github.com/thucydideantimes/echoesofcapital.git
 [submodule "_articles/yongledadian"]
 	path = _articles/yongledadian
-	url = git@github.com:thucydideantimes/yongledadian.git
+	url = https://github.com/thucydideantimes/yongledadian.git
 [submodule "assets/articles/dailynews"]
 	path = assets/articles/dailynews
-	url = git@github.com:thucydideantimes/dailynews-assets.git
+	url = https://github.com/thucydideantimes/dailynews-assets.git
 [submodule "assets/articles/echoesofcapital"]
 	path = assets/articles/echoesofcapital
-	url = git@github.com:thucydideantimes/echoesofcapital-assets.git
+	url = https://github.com/thucydideantimes/echoesofcapital-assets.git
 [submodule "assets/articles/yongledadian"]
 	path = assets/articles/yongledadian
-	url = git@github.com:thucydideantimes/yongledadian-assets.git
+	url = https://github.com/thucydideantimes/yongledadian-assets.git
 [submodule "assets/articles/militarytimes"]
 	path = assets/articles/militarytimes
-	url = git@github.com:thucydideantimes/militarytimes-assets.git
+	url = https://github.com/thucydideantimes/militarytimes-assets.git

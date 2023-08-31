@@ -39,6 +39,8 @@ exclude:
   - tmp/
 pagination:
   enabled: true
+  sort_field: date
+  sort_reverse: true
 article_assets: '/assets/articles/'
 defaults:
   - scope:

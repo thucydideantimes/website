@@ -80,7 +80,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll (~> 4)
+  jekyll (~> 4.3.2)
   jekyll-katex (~> 1.0)
   jekyll-liquify (~> 0.0.2)
   jekyll-paginate-v2 (~> 3.0)
