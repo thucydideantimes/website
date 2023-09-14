@@ -24,5 +24,13 @@ module Jekyll
 		end
 		PaginateV2::Generator::PaginationPage.prepend PaginationPagePatches
 
+		module PostComparerPatches
+			def initialize name
+				super
+				basename_pattern = "#{date}-#{Regexp.escape(slug)}\\.[^.]+"
+				@name_regex = %r!^_articles/\w+/#@path#{basename_pattern}!
+			end
+		end
+		Tags::PostComparer.prepend PostComparerPatches
 	end
 end
